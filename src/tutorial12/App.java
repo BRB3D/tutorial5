@@ -26,6 +26,12 @@ public class App {
         texts[0][1] = "Hello there";
         System.out.println(texts[0][1]);
 
+        for(int i = 0; i < grid.length; i++) {
+            for (int z = 0; z < grid[i].length; z++) {
+                System.out.print(grid[i][z] + "\t");
+            }
+            System.out.println();
+        }
 
 
     }
