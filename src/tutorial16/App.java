@@ -20,5 +20,8 @@ public class App {
         sam.speak("Hi I'm Sam.");
         sam.jump(7);
         sam.move("west", 12.2);
+
+        int value = 14;
+        sam.jump(value);
     }
 }
