@@ -10,4 +10,5 @@ public class Machine implements Info {
     public void showInfo() {
         System.out.println("Machine ID is: " + id);
     }
+
 }
